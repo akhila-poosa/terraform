@@ -1,3 +1,3 @@
 variable "environment" {
-    default = "qa" #dev
+    default = "qa" #change to dev and check the condition
 }
