@@ -1,5 +1,8 @@
 variable "instances" {
-    default = [ "mongodb", "redis" ]
+    default = {
+        mongodb = "t3.micro"
+        redis = "t3.micro"
+    } 
 }
 
 variable "zone_id" {
