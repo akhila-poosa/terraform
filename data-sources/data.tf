@@ -23,7 +23,7 @@ output "ami_id" {
 }
 
 data "aws_instance" "mongodb" {
-    instance_id = "i-0355f99cd46d41298" 
+    instance_id = "i-0715e6a401456f629" 
 }
 
 output "mongodb_info" {
